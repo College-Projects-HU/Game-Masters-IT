@@ -1,5 +1,5 @@
 # Game Masters Store
-## [Site Preview](https://game-masters-it.github.io/IT_Project/)
+## [Site Preview](https://college-projects-hu.github.io/Game-Masters-IT/)
 
 # Team Members :
 - Abdelrhman Adel Farouk
