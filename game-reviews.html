@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Masters</title>
+    <link rel="icon" type="image/png" href="Images/favicon.png" >
+    <!--Normalize-->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="CSS/gamingreview.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+      <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-gamepad"></i>
+                <span><span>Game</span>Masters</span>
+            </a>
+            <div class="pages-box">
+                <i class="fas fa-bars" id="toggle-menu">
+                    <i class="fa-solid fa-angle-down" id="menu-arrow"></i>
+                </i>
+                <ul class="pages" id="pages-links">
+                    <div class="col">
+                        <li><a href="index.html" title="Home"><i class="fa-solid fa-house fa-fw"></i>Home</a></li>
+                        <li><a href="playstation.html" title="Playstation"><i class="fa-brands fa-playstation fa-fw"></i>Playstation</a></li>
+                        <li><a href="xbox.html" title="Xbox"><i class="fa-brands fa-xbox fa-fw"></i>Xbox</a></li>
+                        <li><a href="pc.html" title="PC"><i class="fa-solid fa-desktop fa-fw"></i>PC</a></li>
+                        <li><a href="trending.html"><i class="fa-solid fa-fire"></i>Trending</a></li>
+                        <li><a href="support.html" title="Supports"><i class="fa-solid fa-headset fa-fw"></i>Supports</a></li>
+                        <li><a href="about.html" title="About Us"><i class="fa-solid fa-circle-info fa-fw"></i>About Us</a></li>
+                        <li><a href="brands.html" title="Brands"><i class="fa-solid fa-globe fa-fw"></i>Brands</a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="coming-soon.html" title="coming soon"><i class="fa-solid fa-hourglass-half fa-fw"></i>Coming Soon</a></li>
+                        <li><a href="game-reviews.html" title="Game Reviews" class="active"><i class="fa-solid fa-comment fa-fw"></i>Game Reviews</a></li>
+                        <li><a href="gaming-news.html" title="gaming news"><i class="fa-regular fa-newspaper fa-fw"></i>Gaming News</a></li>
+                        <li><a href="hardware.html" title="Hardware"><i class="fa-solid fa-microchip fa-fw"></i>Hardware</a></li>
+                        <li><a href="nintendo.html" title="nintendo"><i class="fa-solid fa-puzzle-piece fa-fw"></i>Nintendo</a></li>
+                        <li><a href="terms.html" title="nintendo"><i class="fa-solid fa-file fa-fw"></i>Terms</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="rightOptions">
+                <div class="profile">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Account</span>
+                    <ul class="acc">
+                        <li><a href="profile.html"><i class="fa-solid fa-circle-user"></i>Profile</a></li>
+                        <li><a href="signin.html"><i class="fa-solid fa-arrow-right-to-bracket fa-flip-horizontal" id="sign-in-or-out"></i>Sign In</a></li>
+                    </ul>
+                </div>
+                <a href="cart.html" class="cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cart-counter">0</span>
+                </a>
+                <div class="theme-mode" id="theme">
+                    <i class="fa-solid fa-moon fa-fw" id="theme-icon" ></i>
+                </div>
+                <i class="fa fa-music" aria-hidden="true" style="margin: 0 10px;" value="PLAY" onclick="playSound('sound')"></i>
+            </div>
+        </div>
+    </nav>
+<!-- =======================Start Your Page Here======================= -->
+
+<div class="list"> 
+    <div class="container"> 
+          <div class="item_1" onclick="myFunction()" >hardware</div>
+          <div class="items" id="myDropdown_0">
+            <li>monitor</li>
+            <li>GM.chair</li>
+            <li>GM.mouse</li>
+            <li>keyboard</li>
+            <li>case</li>
+          </div>
+          <div class="item_2" onclick="myFunction2()" >software</div>
+          <div class="items" id="myDropdown_1" style=" margin-right: -180px;">
+            <li>ps games</li>
+            <li>xbox games</li>
+            <li>nintendo</li>
+            <li>pc games</li>
+          </div>
+    </div>
+</div>
+
+<div class="product">
+    <div class="product-detail">
+        <div class="card">
+            <div class="cardcontent">
+                <img src="Images/game-review/playstation-legend-pedestal-2021029_1_abf77133-6820-4c4a-b19b-84fc0b491173.webp" width="200px" >
+                <div class="name-profession">
+                <span class="profession">gaming chair of model vpading.hardware 2015</span>
+                </div>
+                <div class="button2">
+                <button
+                gameid="20"
+                gamename="X-Rocker Officially Licensed PlayStation Legend 2.1 Stereo Audio Gaming "
+                gameprice="$50"
+                gameimage="Images/game-review/playstation-legend-pedestal-2021029_1_abf77133-6820-4c4a-b19b-84fc0b491173.webp" 
+                class="add-to-cart-btn">add to cart</button>
+                <button class="hireMe" onclick="myFunction_0()">add review</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <div class="detailbox">
+                <div class="textsection">
+                <div class="numbertext">1 / 4</div>
+                <h2>total : 193 review </h2>
+                <h2>avarage <span>4.4</span> out of 5 </h2>
+                        <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </div>
+                </div>
+                    <div class="adjust">
+                        <div class="barcontainer">
+                            <div class="bar-fullstar"></div>
+                        </div>
+
+                        <div class="barcontainer">
+                            <div class="bar-5star"></div>
+                        </div>
+
+                        <div class="barcontainer">
+                            <div class="bar-4star"></div>
+                        </div>
+
+                        <div class="barcontainer">
+                            <div class="bar-3star"></div>
+                        </div>
+                        
+                        <div class="button">
+                            <button>show people review</button>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="detailbox">
+                <div class="numbertext">2 / 4</div>
+                <div class="comment">
+                    <div class="user_image">
+                     
+                     <img src="Images/user_pic.png" >
+                     
+                     <div class="rate">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                    </div>
+                    <div class="name"> unkowun_user504</div>
+                    </div>
+                    <div class="seprate_line"></div>
+                    <p> vrey good chair i recommend it</p>
+                </div>
+                <div class="comment">
+                    <div class="user_image">
+                     
+                     <img src="Images/user_pic.png" >
+                     
+                     <div class="rate">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                    </div>
+                    <div class="name"> user_57</div>
+                    </div>
+                    <div class="seprate_line"></div>
+                    <p> have many angle to adjust</p>
+                </div>
+            </div>
+
+
+            <div class="detailbox">
+                <div class="numbertext">3 / 4</div>
+                <table>
+                <tr>
+                    <th>style</th>
+                    <th>Diemnstion</th>
+                    <th>connectivity</th>
+                </tr>
+                <tr>
+                    <td>playstaion</td>
+                    <td>15 x 15 cm</td>
+                    <td>blutooh</td>
+                </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <th>type</th>
+                        <th>angle</th>
+                        <th>colors</th>
+                    </tr>
+                    <tr>
+                        <td>fixed</td>
+                        <td>up to 90 dgree</td>
+                        <td>black , white blue</td>
+                    </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <th>style</th>
+                            <th>Diemnstion</th>
+                            <th>connectivity</th>
+                        </tr>
+                        <tr>
+                            <td>playstaion</td>
+                            <td>15 x 15 cm</td>
+                            <td>blutooh</td>
+                        </tr>
+                        </table>
+
+            </div>
+           
+            <div class="detailbox">
+                <div class="numbertext">4 / 4</div>
+                <video width="320" height="240" controls>
+                <source src="Images/game-review/The X Rocker Sony Legend_ Officially Licensed PlayStation Gaming Chair.mp4" type="video/mp4">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"><</a>
+            <a class="next" onclick="plusSlides(1)">></a>
+
+            </div>
+            <br>
+
+            <div style="text-align: center; margin-left: 350px;">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+
+
+            <div class="detailbox_q" id="myDIV">
+
+                <div class="card-star">
+                    <h2>rate your experience</h2>
+                    <span onclick="gfg(1)"
+                        class="star">★
+                    </span>
+                    <span onclick="gfg(2)"
+                        class="star">★
+                    </span>
+                    <span onclick="gfg(3)"
+                        class="star">★
+                    </span>
+                    <span onclick="gfg(4)"
+                        class="star">★
+                    </span>
+                    <span onclick="gfg(5)"
+                        class="star">★
+                    </span>
+                    <h3 id="output" style="background-color: rgb(145, 145, 145);">
+                        Rating is: 0/5
+                    </h3>
+                </div>
+            
+            
+            <form>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                </select>
+                <label for="feedback">feedback</label>
+                <br>
+                <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:100px"></textarea>
+
+                <input type="submit" value="Submit" class="input">
+          
+            </form>
+            </div>
+</div>
+
+
+
+
+<div class="product">
+    <div class="product-detail">
+        <div class="card">
+            <div class="cardcontent">
+                <img src="Images/hardware/chair-1-1.png" width="200px"  >
+                <div class="name-profession">
+                <span class="profession">gaming chair of model borx.hardware 2022</span>
+                </div>
+                <div class="button2">
+                <button 
+                gameid="20"
+                gamename="X Rocker® Bravo RGB Neo Motion™ LED Gaming Chair (5118601)"
+                gameprice="$70"
+                gameimage="Images/hardware/chair-1-1.png" 
+                class="add-to-cart-btn">add to cart</button>
+                <button class="hireMe">more review</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <div class="detailboxv2">
+                <div class="textsection">
+                <div class="numbertext">1 / 4</div>
+                <h2>total : 193 review </h2>
+                <h2>avarage <span>4.4</span> out of 5 </h2>
+                        <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </div>
+                </div>
+                    <div class="adjust">
+                        <div class="barcontainer">
+                            <div class="bar-fullstar"></div>
+                        </div>
+
+                        <div class="barcontainer">
+                            <div class="bar-5star"></div>
+                        </div>
+
+                        <div class="barcontainer">
+                            <div class="bar-4star"></div>
+                        </div>
+
+                        <div class="barcontainer">
+                            <div class="bar-3star"></div>
+                        </div>
+                        
+                        <div class="button">
+                            <button>show people review</button>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="detailboxv2">
+                <div class="numbertext">2 / 4</div>
+                <div class="comment">
+                    <div class="user_image">
+                     
+                     <img src="Images/user_pic.png" >
+                     
+                     <div class="rate">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                    </div>
+                    <div class="name"> unkowun_user504</div>
+                    </div>
+                    <div class="seprate_line"></div>
+                    <p> vrey good chair i recommend it</p>
+                </div>
+                <div class="comment">
+                    <div class="user_image">
+                     
+                     <img src="Images/user_pic.png" >
+                     
+                     <div class="rate">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                    </div>
+                    <div class="name"> user_57</div>
+                    </div>
+                    <div class="seprate_line"></div>
+                    <p> have many angle to adjust</p>
+                </div>
+            </div>
+
+
+            <div class="detailboxv2">
+                <div class="numbertext">3 / 4</div>
+                <table>
+                <tr>
+                    <th>style</th>
+                    <th>Diemnstion</th>
+                    <th>connectivity</th>
+                </tr>
+                <tr>
+                    <td>playstaion</td>
+                    <td>15 x 15 cm</td>
+                    <td>blutooh</td>
+                </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <th>type</th>
+                        <th>angle</th>
+                        <th>colors</th>
+                    </tr>
+                    <tr>
+                        <td>fixed</td>
+                        <td>up to 90 dgree</td>
+                        <td>black , white blue</td>
+                    </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <th>style</th>
+                            <th>Diemnstion</th>
+                            <th>connectivity</th>
+                        </tr>
+                        <tr>
+                            <td>playstaion</td>
+                            <td>15 x 15 cm</td>
+                            <td>blutooh</td>
+                        </tr>
+                        </table>
+
+            </div>
+           
+            <div class="detailboxv2">
+                <div class="numbertext">4 / 4</div>
+                <video width="320" height="240" controls>
+                <source src="Images/game-review/KitchenZ _ GTGAMEZ™ LED Lighting Gaming Chair with RGB _ Red Bull RGB LED Gaming Chair _ 721RD-LED.mp4" type="video/mp4">
+            </div>
+
+            <a class="prevv" onclick="plusSlidess(-1)"><</a>
+            <a class="nextt" onclick="plusSlidess(1)">></a>
+
+            </div>
+            <br>
+
+            <div style="text-align: center; margin-left: 350px;">
+                <span class="dotv2" onclick="currentSlidee(1)"></span> 
+                <span class="dotv2" onclick="currentSlidee(2)"></span> 
+                <span class="dotv2" onclick="currentSlidee(3)"></span> 
+                <span class="dotv2" onclick="currentSlidee(4)"></span> 
+            </div>
+
+         <!--
+            <div class="detailbox_q" style="z-index: -2; top: 54%;">
+
+                <div class="card-star">
+                    <h2>rate your experience</h2>
+                    <span onclick="gfgg(1)"
+                        class="star">★
+                    </span>
+                    <span onclick="gfgg(2)"
+                        class="star">★
+                    </span>
+                    <span onclick="gfgg(3)"
+                        class="star">★
+                    </span>
+                    <span onclick="gfgg(4)"
+                        class="star">★
+                    </span>
+                    <span onclick="gfgg(5)"
+                        class="star">★
+                    </span>
+                    <h3 id="output" style="background-color: rgb(145, 145, 145);">
+                        Rating is: 0/5
+                    </h3>
+                </div>
+            
+            
+            
+            <form>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                </select>
+                <label for="feedback">feedback</label>
+                <br>
+                <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:100px"></textarea>
+
+                <input type="submit" value="Submit" class="input">
+          
+            </form>
+            </div>
+            -->
+</div>
+<div class="iframe-container">
+<h2 >your cart</h2>
+<iframe  src="cart.html" title="cart" width="60%" height="200px" > </iframe>
+<audio controls id="audio"  >
+    <source src="Images/game-review/perfect-beauty-191271.mp3" type="audio/mp3">
+
+</audio>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =======================End Your Page Here======================= -->
+
+<footer>
+    <div class="container">
+        <div class="box">
+            <h3>Game Masters</h3>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/" class="twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <p class="text">
+                    Explore endless worlds of gaming adventure with GameStore. Discover the latest releases, join our community, and level up your gaming experience today.
+                </p>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Egypt, Cairo, Helwan University, Faculty of Computer Science and Artificial Intelligence</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>+20123453459</span>
+                    <span>+20173765432</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Copyright &copy; 2024 GameMasters. All rights reserved.</p>
+    </footer>
+    <script src="./JS/main.js"></script>
+    <script src="game-review.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+{
+    "0": {
+        "gameID": 0,
+        "gameName": "Far Cry® 6 Game of the Year Edition",
+        "gamePrice": "$119.99",
+        "gameImg": "Images/homeImgs/Trending/farcry.jpg",
+        "gameDesc": "Far Cry 6 is a thrilling first-person shooter set in the fictional Caribbean island of Yara. Players take on the role of Dani Rojas, a guerrilla fighter battling against the oppressive regime of dictator Antón Castillo. Explore a vast open world, engage in intense firefights, and uncover the dark secrets of Castillo's rule. With customizable weapons and dynamic gameplay, Far Cry 6 delivers an immersive experience filled with action and revolution. Join the fight for freedom and become a hero in Far Cry 6.",
+        "gameTrailer": "https://www.youtube.com/embed/-IJuKT1mHO8"
+    },
+    "1": {
+        "gameID": 1,
+        "gameName": "Grand Theft Auto V: Premium Edition",
+        "gamePrice": "$29.99",
+        "gameImg": "Images/homeImgs/Trending/GTAV.jpg",
+        "gameDesc": "Grand Theft Auto V (GTA V) is an action-packed open-world game set in the sprawling city of Los Santos and its surrounding areas. Play as three protagonists: Michael, a retired bank robber; Franklin, a young hustler; and Trevor, a volatile career criminal. Navigate a world of crime, corruption, and betrayal, engaging in daring heists, high-speed chases, and explosive confrontations. Explore a vibrant open world filled with activities and side missions, from skydiving to golfing. With stunning graphics and immersive gameplay, GTA V offers an unparalleled gaming experience that captivates players worldwide.",
+        "gameTrailer": "https://www.youtube.com/embed/QkkoHAzjnUs"
+    },
+    "2": {
+        "gameID": 2,
+        "gameName": "League of Legends",
+        "gamePrice": "$10",
+        "gameImg": "Images/homeImgs/Trending/EGS_LeagueofLegends.jpg",
+        "gameDesc": "League of Legends (LoL) is a fast-paced multiplayer online battle arena (MOBA) game developed and published by Riot Games. Players choose from a diverse roster of champions and team up with others to compete in intense 5v5 matches. With strategic gameplay, dynamic combat, and a vibrant community, LoL has become one of the most popular and enduring esports titles worldwide. Join millions of players in the ultimate battle for supremacy on the Fields of Justice in League of Legends.",
+        "gameTrailer": "https://www.youtube.com/embed/aR-KAldshAE"
+        
+    },
+    "3": {
+        "gameID": 3,
+        "gameName": "EA SPORTS FC™ 24 Standard Edition",
+        "gamePrice": "$69.99",
+        "gameImg": "Images/homeImgs/Trending/EGS_EASPORTS.jpg",
+        "gameDesc": "EA SPORTS FC 24 Standard Edition is the latest installment in the acclaimed EA SPORTS franchise. Featuring fast-paced action, stunning graphics, and realistic gameplay, this soccer simulation game brings the excitement of the pitch to life like never before. With a wide range of teams, leagues, and game modes to choose from, players can experience the thrill of competition on their journey to soccer glory. Whether it's dominating the field in Career Mode, competing online in FIFA Ultimate Team, or playing with friends in local multiplayer, EA SPORTS FC 24 Standard Edition offers something for every soccer fan. Get ready to score the winning goal and lead your team to victory in EA SPORTS FC 24 Standard Edition.",
+        "gameTrailer": "https://www.youtube.com/embed/XhP3Xh4LMA8"
+    },
+    "4": {
+        "gameID": 4,
+        "gameName": "PUBG: BATTLEGROUNDS",
+        "gamePrice": "$10",
+        "gameImg": "Images/homeImgs/Trending/pubg.jpg",
+        "gameDesc": "PUBG: BATTLEGROUNDS is a thrilling battle royale game developed by PUBG Corporation. Drop onto an island with 99 other players and fight to be the last one standing. With intense gunfights, strategic gameplay, and ever-shrinking play zones, every match is a pulse-pounding race for survival. Team up with friends in squads or go solo in this adrenaline-fueled fight for dominance. Are you ready to conquer the battlegrounds and emerge victorious in PUBG: BATTLEGROUNDS?",
+        "gameTrailer": "https://www.youtube.com/embed/u1oqfdh4xBY"
+    },
+    "5": {
+        "gameID": 5,
+        "gameName": "Red Dead Redemption 2",
+        "gamePrice": "$59.99",
+        "gameImg": "Images/homeImgs/Trending/RDR2.jpg",
+        "gameDesc": "Red Dead Redemption 2 (RDR2) is an epic action-adventure game set in America's late 1800s Wild West. Play as Arthur Morgan, an outlaw navigating the challenges of survival and morality in the Van der Linde gang. Explore a vast open world teeming with life, from bustling towns to rugged wilderness. Engage in intense shootouts, bond with your trusty steed, and discover a wealth of side activities like hunting and gambling. With breathtaking visuals and immersive gameplay, RDR2 sets a new standard for open-world gaming, delivering an unforgettable journey through the lawless frontier of the American West.",
+        "gameTrailer": "https://www.youtube.com/embed/gmA6MrX81z4"
+    },
+    "6": {
+        "gameID": 6,
+        "gameName": "VALORANT",
+        "gamePrice": "$10",
+        "gameImg": "Images/homeImgs/Trending/EGS_VALORANT.jpg",
+        "gameDesc": "Valorant is a fast-paced tactical shooter where teams of agents with unique abilities battle in a variety of objective-based game modes. Players must strategize, communicate, and showcase their skills to outmaneuver opponents and secure victory in intense, high-stakes matches.",
+        "gameTrailer": "https://www.youtube.com/embed/e_E9W2vsRbQ"
+    },
+    "7": {
+        "gameID": 7,
+        "gameName": "Fortnite",
+        "gamePrice": "$10",
+        "gameImg": "Images/homeImgs/Trending/fortnite.jpg",
+        "gameDesc": "Fortnite is a wildly popular online multiplayer game that combines elements of shooting, building, and survival. Players drop onto an island, scavenge for weapons and resources, and battle to be the last one standing in a constantly shrinking map. With its vibrant graphics, diverse gameplay modes, and frequent updates, Fortnite has become a cultural phenomenon, attracting millions of players worldwide.",
+        "gameTrailer": "https://www.youtube.com/embed/aOAiUwz7Zt8"
+    },
+    "8": {
+        "gameID": 8,
+        "gameName": "Among Us",
+        "gamePrice": "$1.99",
+        "gameImg": "Images/homeImgs/Trending/amogusportrait.jpg",
+        "gameDesc": "Among Us is a social deduction game where players work together to complete tasks on a spaceship while trying to identify the impostors among them. With its simple yet addictive gameplay and emphasis on deception and deduction, Among Us has become a hit among gamers of all ages. Will you trust your crewmates or uncover the impostors before it's too late?",
+        "gameTrailer": "https://www.youtube.com/embed/CermGp8bwFE"
+    },
+    "9": {
+        "gameID": 9,
+        "gameName": "Assassins Creed Odyssey",
+        "gamePrice": "$11.99",
+        "gameImg": "Images/homeImgs/Trending/ACOrigins.jpg",
+        "gameDesc": "Assassin's Creed Odyssey transports players to ancient Greece, where they embark on an epic journey as a mercenary caught in the midst of a legendary conflict between Athens and Sparta. With stunning open-world exploration, thrilling combat, and a rich narrative filled with choice and consequence, players will forge their own path to become a legendary hero or villain in this immersive action-adventure RPG.",
+        "gameTrailer": "https://www.youtube.com/embed/s_SJZSAtLBA"
+    },
+    "10": {
+        "gameID": 10,
+        "gameName": "Call of Duty: WWII",
+        "gamePrice": "$29.99",
+        "gameImg": "Images/homeImgs/Trending/28204.jpg",
+        "gameDesc": "Call of Duty: WWII takes players back to the iconic battles of World War II, immersing them in the epic struggle against tyranny across Europe. From the beaches of Normandy to the heart of Nazi Germany, experience intense infantry combat, gripping narrative missions, and thrilling multiplayer action. With authentic weapons, historic locations, and a gritty, cinematic atmosphere, this installment redefines the WWII gaming experience for a new generation",
+        "gameTrailer": "https://www.youtube.com/embed/D4Q_XYVescc"
+    },
+    "11": {
+        "gameID": 11,
+        "gameName": "Rocket League®",
+        "gamePrice": "$10",
+        "gameImg": "Images/homeImgs/Trending/EGS_RocketLeague.jpg",
+        "gameDesc": "Rocket League is a high-octane blend of soccer and vehicular mayhem, where players control rocket-powered cars to score goals in dynamic arenas. With fast-paced matches, customizable vehicles, and addictive gameplay, it's a unique sports experience that's easy to pick up but hard to master. Whether playing solo or with friends, get ready to unleash your inner athlete in this adrenaline-fueled arcade sensation.",
+        "gameTrailer": "https://www.youtube.com/embed/SgSX3gOrj60"
+    },
+    "12": {
+        "gameID": 12,
+        "gameName": "Tales of Kenzera™: ZAU",
+        "gamePrice": "$19.99",
+        "gameImg": "https://cdn1.epicgames.com/offer/49cd2d3bc2fb416984bee5533ceb5d88/EGS_TalesofKenzeraZAUStandardEdition_SurgentStudios_S2_1200x1600-2af3bfa32e7609eccae3d6d02c8a5e59?h=480&quality=medium&resize=1&w=360",
+        "gameDesc": "Wield the dance of the shaman. Reclaim your father’s spirit. Brave the beautiful and treacherous land of Kenzera with the God of Death in Tales of Kenzera™: ZAU, a metroidvania-style adventure.",
+        "gameTrailer": "https://www.youtube.com/embed/5lEbG0Bx83U"
+    },
+    "13": {
+        "gameID": 13,
+        "gameName": "F1® 24 Champions Edition + Limited Time Bonus",
+        "gamePrice": "$89.99",
+        "gameImg": "https://cdn1.epicgames.com/offer/edffc5fcc62140a7afd239d9e65df463/EGS_F124ChampionsEditionLimitedTimeBonus_Codemasters_Editions_S2_1200x1600-fb60d5336b673d8f14f05800688f3d00?h=480&quality=medium&resize=1&w=360",
+        "gameDesc": "Be One of the 20 in EA SPORTS™ F1® 24. LIMITED TIME ONLY — Pre-purchase* F1® 24 Champions Edition by May 1st, 2024 and receive 2024 liveries and esports liveries in F1® 23** and much more!",
+        "gameTrailer": "https://www.youtube.com/embed/NnyCWsA6KSI"
+    },
+    "14": {
+        "gameID": 14,
+        "gameName": "EA SPORTS™ WRC",
+        "gamePrice": "$49.99",
+        "gameImg": "https://cdn1.epicgames.com/offer/50b6612049324d0faf8642014139b082/EGS_WRC_Codemasters_S2_1200x1600-8c4c26fb91b620a830c867cb78d69efb?h=480&quality=medium&resize=1&w=360",
+        "gameDesc": "Build the car of your dreams in our biggest rally game ever, EA SPORTS™ WRC, the all-new official videogame of the FIA World Rally Championship, the first developed by the award-winning team behind the DiRT Rally series.",
+        "gameTrailer": "https://www.youtube.com/embed/JFy_cWefBtQ"
+    },
+    "15": {
+        "gameID": 15,
+        "gameName": "Madden NFL 24 Deluxe Edition",
+        "gamePrice": "$99.99",
+        "gameImg": "https://cdn1.epicgames.com/offer/0460f46401ae4bdcadbc931d30028015/EGS_MaddenNFL24DeluxeEdition_Tiburon_Editions_S2_1200x1600-4dc7b0b0d74d6a2160e8e25624f48343?h=480&quality=medium&resize=1&w=360",
+        "gameDesc": "FieldSENSE™ : Improvements to the FieldSENSE™ Gameplay System increase control in throwing, catching, blocking and tackling with a suite of new animations added to Hit Everything 2.0 and Skill-Based Passing 2.0.",
+        "gameTrailer": "https://www.youtube.com/embed/UVZ0IIeW2mw"
+    },
+    "16": {
+        "gameID": 16,
+        "gameName": "F1® 23",
+        "gamePrice": "$69.99",
+        "gameImg": "https://cdn1.epicgames.com/offer/b7773a08a6fa41e3a0fbc4c1e51c95a4/EGS_F123_Codemasters_S2_1200x1600-9ee0158a6d9f052deb753af836f9bd8d?h=480&quality=medium&resize=1&w=360",
+        "gameDesc": "Be the last to brake in EA SPORTS™ F1® 23, the official videogame of the 2023 FIA Formula One World Championship™.",
+        "gameTrailer": "https://www.youtube.com/embed/wHNgoRCWqTg"
+    },
+    "17": {
+        "gameID": 17,
+        "gameName": "Super Mega Baseball 4",
+        "gamePrice": "$59.99",
+        "gameImg": "Images/pc/pct-6.png",
+        "gameDesc": "The series’ signature combination of arcade-inspired style and immersive gameplay depth returns with more than 200 baseball Legends, 6 all-new stadiums, and a grand slam of presentation upgrades.",
+        "gameTrailer": "https://www.youtube.com/embed/alFTKIcYsRQ"
+    },
+    "18": {
+        "gameID": 18,
+        "gameName": "STAR WARS Jedi: Survivor™",
+        "gamePrice": "$69.99",  
+        "gameImg": "https://cdn1.epicgames.com/offer/5a2ea5980ac147c195775039195a3081/EGS_STARWARSJediSurvivorStandardEdition_RespawnEntertainment_S2_1200x1600-fd090aecb23a065b29ea101939798edd?h=480&quality=medium&resize=1&w=360",
+        "gameDesc": "The story of Cal Kestis continues in the critically acclaimed STAR WARS Jedi: Survivor™, an epic new adventure that will push Cal further than ever as he fights to protect the galaxy from descending into darkness..",
+        "gameTrailer": "https://www.youtube.com/embed/VRaobDJjiec"
+    },
+    "19": {
+        "gameID": 19,
+        "gameName": "EA SPORTS™ PGA TOUR™",
+        "gamePrice": "$69.99",  
+        "gameImg": "https://cdn1.epicgames.com/offer/19d5458aa3c849a1b0fff69da4c9ed9d/EGS_EASPORTSPGATOUR_ElectronicArtsTiburon_S2_1200x1600-dad87936ec9ffb1c928bb896b1bc1a7a?h=480&quality=medium&resize=1&w=360",
+        "gameDesc": "The exclusive home of the Majors, EA SPORTS™ PGA TOUR™ features Pure Strike for superior golf gameplay powered by ShotLink®, and unrivaled access to the world’s most exclusive golf courses.",
+        "gameTrailer": "https://www.youtube.com/embed/LmG2A_mfTxA"
+    },
+    "20": {
+        "gameID": 20,
+        "gameName": "BBUY WILD HEARTS™",
+        "gamePrice": "$69.99",  
+        "gameImg": "Images/pc/pct-9.png",
+        "gameDesc": "Master ancient tech to hunt down giant beasts. WILD HEARTS™ is a twist on the hunting genre where technology gives you a fighting chance against giant nature-infused beasts. Hunt alone or with friends.",
+        "gameTrailer": "https://www.youtube.com/embed/8vw9PlFrrOk"
+    }
+}

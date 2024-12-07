@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Masters</title>
+    <link rel="icon" type="image/png" href="Images/favicon.png" >
+    <!--Normalize-->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Page CSS File -->
+    <link rel="stylesheet" href="./CSS/playstation.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-gamepad"></i>
+                <span><span>Game</span>Masters</span>
+            </a>
+            <div class="pages-box">
+                <i class="fas fa-bars" id="toggle-menu">
+                    <i class="fa-solid fa-angle-down" id="menu-arrow"></i>
+                </i>
+                <ul class="pages" id="pages-links">
+                    <div class="col">
+                        <li><a href="index.html" title="Home"><i class="fa-solid fa-house fa-fw"></i>Home</a></li>
+                        <li><a href="playstation.html" title="Playstation" class="active"><i class="fa-brands fa-playstation fa-fw"></i>Playstation</a></li>
+                        <li><a href="xbox.html" title="Xbox"><i class="fa-brands fa-xbox fa-fw"></i>Xbox</a></li>
+                        <li><a href="pc.html" title="PC"><i class="fa-solid fa-desktop fa-fw"></i>PC</a></li>
+                        <li><a href="trending.html"><i class="fa-solid fa-fire"></i>Trending</a></li>
+                        <li><a href="support.html" title="Supports"><i class="fa-solid fa-headset fa-fw"></i>Supports</a></li>
+                        <li><a href="about.html" title="About Us"><i class="fa-solid fa-circle-info fa-fw"></i>About Us</a></li>
+                        <li><a href="brands.html" title="Brands"><i class="fa-solid fa-globe fa-fw"></i>Brands</a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="coming-soon.html" title="coming soon"><i class="fa-solid fa-hourglass-half fa-fw"></i>Coming Soon</a></li>
+                        <li><a href="game-reviews.html" title="Game Reviews"><i class="fa-solid fa-comment fa-fw"></i>Game Reviews</a></li>
+                        <li><a href="gaming-news.html" title="gaming news"><i class="fa-regular fa-newspaper fa-fw"></i>Gaming News</a></li>
+                        <li><a href="hardware.html" title="Hardware"><i class="fa-solid fa-microchip fa-fw"></i>Hardware</a></li>
+                        <li><a href="nintendo.html" title="nintendo"><i class="fa-solid fa-puzzle-piece fa-fw"></i>Nintendo</a></li>
+                        <li><a href="terms.html" title="nintendo"><i class="fa-solid fa-file fa-fw"></i>Terms</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="rightOptions">
+                <div class="profile">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Account</span>
+                    <ul class="acc">
+                        <li><a href="profile.html"><i class="fa-solid fa-circle-user"></i>Profile</a></li>
+                        <li><a href="signin.html"><i class="fa-solid fa-arrow-right-to-bracket fa-flip-horizontal" id="sign-in-or-out"></i>Sign In</a></li>
+                    </ul>
+                </div>
+                <a href="cart.html" class="cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cart-counter">0</span>
+                </a>
+                <div class="theme-mode" id="theme">
+                    <i class="fa-solid fa-moon fa-fw" id="theme-icon" ></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- =======================Start Your Page Here======================= -->
+
+<div class="slider">
+    <div class="list">
+        <div class="item">
+            <img src="Images/Playstation/playstation-logo.avif" alt="">
+        </div>
+        <div class="item">
+            <video autoplay loop muted src="Media/PlayStation.mp4" alt="">
+        </div>
+        <div class="item">
+            <img src="Images/Playstation/PS5 Photo.jpg" alt="">
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+</div>
+<script src="./JS/playstation.js"></script>
+
+<div class="gallery">
+
+
+
+    <div class="content">
+        <a href="game-product-page.html?game=0" class="item">
+            <img src="./Images/homeImgs/Trending/farcry.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">Far Cry® 6 Game of the Year Edition</h3>
+        <p style="color: rgb(223, 255, 175);">Far Cry 6 is a thrilling first-person shooter set in the fictional Caribbean island of Yara. Join the fight for freedom and become a hero in Far Cry 6.</p>
+        <h6>$119.99</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=0'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=1" class="item">
+            <img src="./Images/homeImgs/Trending/GTAV.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">Grand Theft Auto V: Premium Edition</h3>
+        <p style="color: rgb(223, 255, 175);">Grand Theft Auto V (GTA V) is an action-packed open-world game set in the sprawling city of Los Santos and its surrounding areas. </p>
+        <h6>$29.99</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=1'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=3" class="item">
+            <img src="./Images/homeImgs/Trending/EGS_EASPORTS.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">EA SPORTS FC™ 24 Standard Edition</h3>
+        <p style="color: rgb(223, 255, 175);">EA SPORTS FC 24 Standard Edition is the latest installment in the acclaimed EA SPORTS franchise. the thrill of competition on their journey to soccer. </p>
+        <h6>$69.99</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=3'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=4" class="item">
+            <img src="./Images/homeImgs/Trending/pubg.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">PUBG: BATTLEGROUNDS</h3>
+        <p style="color: rgb(223, 255, 175);">PUBG: BATTLEGROUNDS is a thrilling battle royale game developed by PUBG Corporation. Drop onto an island with 99 other players and fight to be the last one standing.  </p>
+        <h6>$10.00</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=4'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=2" class="item">
+            <img src="./Images/homeImgs/Trending/EGS_LeagueofLegends.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">League of Legends</h3>
+        <p style="color: rgb(223, 255, 175);">League of Legends (LoL) is a fast-paced multiplayer online battle arena (MOBA) game developed and published by Riot Games. Players choose from a diverse roster of champions and team up with others.</p>
+        <h6>$10.00</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=2'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=5" class="item">
+            <img src="./Images/homeImgs/Trending/RDR2.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">Red Dead Redemption 2</h3>
+        <p style="color: rgb(223, 255, 175);">Red Dead Redemption 2 (RDR2) is an epic action-adventure game set in America's late 1800s Wild West. Play as Arthur Morgan, an outlaw navigating the challenges of survival and morality in the Van der Linde gang.</p>
+        <h6>$59.99</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=5'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=6" class="item">
+            <img src="./Images/homeImgs/Trending/EGS_VALORANT.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">VALORANT</h3>
+        <p style="color: rgb(223, 255, 175);">Valorant is a fast-paced tactical shooter where teams of agents with unique abilities battle in a variety of objective-based game modes. Players must strategize, communicate, and showcase their skills.</p>
+        <h6>$10.00</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=6'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=7" class="item">
+            <img src="./Images/homeImgs/Trending/fortnite.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">Fortnite</h3>
+        <p style="color: rgb(223, 255, 175);">Fortnite is a wildly popular online multiplayer game that combines elements of shooting, building, and survival. Players drop onto an island, scavenge for weapons and resources, and battle to be the last one standing.</p>
+        <h6>$10.00</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=7'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=8" class="item">
+            <img src="./Images/homeImgs/Trending/amogusportrait.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">Among Us</h3>
+        <p style="color: rgb(223, 255, 175);">Among Us is a social deduction game where players work together to complete tasks on a spaceship while trying to identify the impostors among them.</p>
+        <h6>$1.99</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=8'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=9" class="item">
+            <img src="./Images/homeImgs/Trending/ACOrigins.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">Assassins Creed Odyssey</h3>
+        <p style="color: rgb(223, 255, 175);">Assassin's Creed Odyssey transports players to ancient Greece, where they embark on an epic journey as a mercenary caught in the midst.</p>
+        <h6>$11.99</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=9'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=10" class="item">
+            <img src="./Images/homeImgs/Trending/28204.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">Call of Duty: WWII</h3>
+        <p style="color: rgb(223, 255, 175);">Call of Duty: WWII takes players back to the iconic battles of World War II, immersing them in the epic struggle against tyranny across Europe.</p>
+        <h6>$29.99</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=10'">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <a href="game-product-page.html?game=11" class="item">
+            <img src="./Images/homeImgs/Trending/EGS_RocketLeague.jpg" alt="">
+        </a>
+        <h3 style="color: rgb(255, 255, 255);">Rocket League®</h3>
+        <p style="color: rgb(223, 255, 175);">Rocket League is a high-octane blend of soccer and vehicular mayhem, where players control rocket-powered cars to score goals in dynamic arenas.</p>
+        <h6>$10.00</h6>
+        <ul class="stars">
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy" onclick="location.href='game-product-page.html?game=11'">Buy Now</button>
+    </div>
+
+    <table>
+        <div class="advanced-table">
+        <thead>
+        <tr>
+        <th style="color: rgb(255, 255, 255);">Specifications</th>
+        <th style="color: rgb(255, 255, 255);"><i class="fa-brands fa-playstation fa-fw"></i> PS5</th>
+        <th style="color: rgb(255, 255, 255);"><i class="fa-brands fa-playstation fa-fw"></i> PS4 Pro</th>
+        <th style="color: rgb(255, 255, 255);"><i class="fa-brands fa-playstation fa-fw"></i> PS4</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>CPU</td>
+        <td>8x Zen 2 Cores at 3.5GHz (Variable Frequency)</td>
+        <td>8-Core AMD Jaguar at 2.1GHz</td>
+        <td>8-Core AMD Jaguar at 1.6GHz</td>
+        </tr>
+        <tr>
+        <td>GPU</td>
+        <td>10.28 TFLOPs, 36 CUs at 2.23GHz (Variable Frequency), Custom RDNA 2</td>
+        <td>4.2 TFLOPS, 36 CUs at 911MHz, AMD Radeon</td>
+        <td>1.84 TFLOPS, 18 CUs at 800MHz, AMD Radeon</td>
+        </tr>
+        <tr>
+        <td>Memory</td>
+        <td>16GB GDDR6/256-bit, 448GB/s Bandwidth</td>
+        <td>8GB GDDR5, 217GB/s</td>
+        <td>8GB GDDR5 + 1GB DDR3, 176GB/s</td>
+        </tr>
+        <tr>
+        <td>Internal Storage</td>
+        <td>Custom 825GB SSD, 5.5GB/s (Raw), Typical 8-9GB/s I/O Throuput (Compressed)</td>
+        <td>1TB HDD, ~50-100MB/s</td>
+        <td>500GB HDD, ~50-100MB/s</td>
+        </tr>
+        <tr>
+        <td>Expandable Storage</td>
+        <td>NVMe SSD Slot</td>
+        <td colspan="2" style="text-align: center;">Not specified</td>
+        </tr>
+        <tr>
+        <td>Optical Drive</td>
+        <td>4K UHD Blu-ray Drive</td>
+        <td colspan="2" style="text-align: center;">Blu-ray Drive</td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+    <div class="form" id="feedback-form">
+            <h2>Feedback Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" required></textarea>
+    
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Select a rating</option>
+                    <option value="1">1 (Poor)</option>
+                    <option value="2">2 (Fair)</option>
+                    <option value="3">3 (Good)</option>
+                    <option value="4">4 (Very Good)</option>
+                    <option value="5">5 (Excellent)</option>
+                </select>
+    
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+
+
+</div>
+
+<!-- =======================End Your Page Here======================= -->
+
+    <footer>
+        <div class="container">
+            <div class="box">
+                <h3>Game Masters</h3>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/" class="twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <p class="text">
+                    Explore endless worlds of gaming adventure with GameStore. Discover the latest releases, join our community, and level up your gaming experience today.
+                </p>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Egypt, Cairo, Helwan University, Faculty of Computer Science and Artificial Intelligence</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                    <span>+20123453459</span>
+                    <span>+20173765432</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Copyright &copy; 2024 GameMasters. All rights reserved.</p>
+    </footer>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
